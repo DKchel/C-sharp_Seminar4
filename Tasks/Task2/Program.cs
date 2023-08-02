@@ -7,7 +7,7 @@ Console.WriteLine("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 
-int GetSumNum()
+int GetCountNum()
 {
     int count = 0;
     while (num > 0)
@@ -19,5 +19,5 @@ int GetSumNum()
     return count;
 }
 
-int result = GetSumNum();
+int result = GetCountNum();
 Console.WriteLine(result);
