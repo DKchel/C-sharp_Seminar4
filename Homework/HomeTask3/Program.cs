@@ -14,7 +14,7 @@ void GetArray()
 {
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(arrayMin, arrayMax);
+        array[i] = new Random().Next(arrayMin, arrayMax + 1);
         Console.Write(array[i] + " ");
     }
 }
